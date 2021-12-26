@@ -5,8 +5,6 @@
 
 #include "mitchellz4.h"
 
-mlz4_error_t mitchellz4Compress(char *inputFile, char*outputFile);
-
 int verbose = 1;
 
 void printHelp()

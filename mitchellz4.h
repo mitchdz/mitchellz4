@@ -16,3 +16,4 @@ struct _errordesc {
     { E_MLZ4_FILE_NOT_FOUND, "File not found" }
 };
 
+mlz4_error_t mitchellz4Compress(char *inputFile, char*outputFile);
